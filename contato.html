@@ -1,34 +1,35 @@
 <html>
 <head>
 	<title>CONTATO</title>
+<link rel="stylesheet" type="text/css"
+        href="estilo.css" />
 </head> 
 <body> 
-<form name="meuForm" method="post" id="formulario">
-	<div class="box"> 
-		<h2>Formulario de Contato :</h2>
- 
-		<label> 
-			<span>Name</span>
+	<div id="topo"> <img src="ufoptopo.jpg"> </div>	
+	
+	<h2>Formulario Contato :</h2>
+ 	<div id="conteudo3">
+			<form name="input" action="cadastroSucesso.html">
+			Name
  			<input type="text" class="input_text" name="nome" id="name"/>
- 
-		</label>
- 
-		<label>
- 			<span>Email</span>
+ 			<br>
+ 			Email
 			<input type="text" class="input_text" name="email" id="email"/>
-		 </label>
- 
-		<label>
- 			<span>Website</span>
+		 	<br>
+		 	Site
 			<input type="text" class="input_text" name="assunto" id="subject"/>
-		</label>
- 
-		<label>
-			 <span>Comment</span>
+			<br>
+			<br>
+			Comment
 			<textarea class="message" name="feedback" id="feedback"></textarea>
-			<input type="button" class="button" value="Enviar" />
-		</label>           
+			<br>
+			<input type="submit" value="Enviar">
+			<input type="reset" value="Limpar">	
+	</form> 
 	</div>
-</form> 
+
+		<div id="rodape">
+			<a href="index.html">pagina inicial</a>
+		</div>
 </body>
 </html>
