@@ -7,29 +7,32 @@
 <body> 
 	<div id="topo"> <img src="ufoptopo.jpg"> </div>	
 	
-	<h2>Formulario Contato :</h2>
- 	<div id="conteudo3">
-			<form name="input" action="cadastroSucesso.html">
-			Name
+	<form name="meuForm" method="post" id="formulario" action="cadastroSucesso.html">
+	
+	<div class="box"> 
+		<h1>Contato :</h1>
+ 
+		<label> 
+			<span>Nome</span>
  			<input type="text" class="input_text" name="nome" id="name"/>
- 			<br>
- 			Email
+ 
+		</label>
+ 
+		<label>
+ 			<span>Email</span>
 			<input type="text" class="input_text" name="email" id="email"/>
-		 	<br>
-		 	Site
+		 </label>
+ 
+		<label>
+ 			<span>Website</span>
 			<input type="text" class="input_text" name="assunto" id="subject"/>
-			<br>
-			<br>
-			Comment
+		</label>
+ 
+		<label>
+			 <span>Comment</span>
 			<textarea class="message" name="feedback" id="feedback"></textarea>
-			<br>
-			<input type="submit" value="Enviar">
-			<input type="reset" value="Limpar">	
-	</form> 
+			<input type="submit" value="Enviar"></label>           
 	</div>
-
-		<div id="rodape">
-			<a href="index.html">pagina inicial</a>
-		</div>
+</form> 
 </body>
 </html>

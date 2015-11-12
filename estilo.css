@@ -12,7 +12,67 @@ th {text-align: center;  height: 50px;  background-color: #cccccc;}
 td {background-color: #0000;}
 
 .full_table_list{width: 200px;border-collapse: collapse;}
-.full_table_list th{text-align: center;  height: 50px;  background-color: #FFD700;}
+.full_table_list tr.header th{text-align: center;  height: 50px;  background-color: #FFD700;}
 .full_table_list tr{border:1px black solid;}
 .full_table_list tr:nth-child(even) {background: #FFF}
 .full_table_list tr:nth-child(odd) {background: #EEE}
+.full_table_list tr.dif td {background: #6495ED;} 
+
+div.box {
+    margin:0 auto;
+    width:500px;
+    background:#1E90FF;
+    position:relative;
+    top:50px;
+    border:1px solid #FFFFFF;
+}
+
+div.box h1 { 
+    color:#000000;
+    font-size:18px;
+    text-transform:uppercase;
+    padding:5px 0 5px 5px;
+    border-bottom:1px solid #FFFFFF;
+    border-top:1px solid #FFFFFF; 
+}
+
+div.box label {
+    width:100%;
+    display: block;
+    background:#1E90FF;
+    border-top:1px solid #FFFFFF;
+    border-bottom:1px solid #FFFFFF;
+    padding:10px 0 10px 0;
+}
+
+div.box label span {
+    display: block;
+    color:#C6E2FF;
+    font-size:12px;
+    float:left;
+    width:100px;
+    text-align:right;
+    padding:5px 20px 0 0;
+}
+
+div.box .input_text {
+    padding:10px 10px;
+    width:200px;
+    background:#C6E2FF;
+    border-bottom: 1px double #FFFFFF;
+    border-top: 1px double #FFFFFF;
+    border-left:1px double #FFFFFF;
+    border-right:1px double #FFFFFF;
+}
+
+div.box .message{
+    padding:7px 7px;
+    width:350px;
+    background:#C6E2FF;
+    border-bottom: 1px double #FFFFFF;
+    border-top: 1px double #FFFFFF;
+    border-left:1px double #FFFFFF;
+    border-right:1px double #FFFFFF;
+    overflow:hidden;
+    height:150px;
+}
